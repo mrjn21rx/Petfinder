@@ -1,0 +1,316 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #fff;
+    color: #333;
+    padding: 0.4em 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 2em;
+}
+
+header .logo img {
+    height: 50px;
+    margin-right: 0.5em;
+    border-radius: 50px;
+}
+
+header nav a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 2em;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: #d84d1f;
+}
+.hero {
+    background-color: #d8a3d8;
+    color: #333;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.hero-text {
+    text-align: left;
+}
+
+.hero button {
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+}
+
+.adopt-button {
+    display: inline-block;
+    padding: 6px 20px;
+    margin: 5px;
+    color: white;
+    background-color: #000; /* Adjust the color as needed */
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+.adopt-button:hover {
+    background-color: #773777;
+}
+.register-button {
+    display: inline-block;
+    padding: 6px 20px;
+    margin: 5px;
+    color: white;
+    background-color: #000; /* Adjust the color as needed */
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+.register-button:hover {
+    background-color: #773777;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+form input[type="text"],
+form input[type="number"],
+form textarea,
+form input[type="file"],
+form select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+form .gender-options {
+    margin: 1rem 0;
+}
+
+form .gender-options label {
+    margin-right: 10px;
+}
+
+form .button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+form .button-group button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form .button-group button[type="reset"] {
+    background-color: #f44336;
+    color: white;
+}
+form .button-group button[type="reset"]:hover {
+    background-color: #f55;
+}
+
+form .button-group button[type="submit"] {
+    background-color: #333;
+    color: white;
+}
+form .button-group button[type="submit"]:hover {
+    background-color: #555;
+}
+
+.profiles-section {
+    margin-top: 2rem;
+}
+
+.profiles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.profile {
+    width: calc(25% - 1rem);
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.profile img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 150px;
+}
+
+.notification {
+    display: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.notification.success {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.notification.error {
+    background-color: #f44336;
+    color: white;
+}
+#footer {
+    background-color: #333;
+    color: #fcf8fb;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1 1 300px;
+    margin-bottom: 30px;
+}
+
+.section-content {
+    padding: 0 20px;
+}
+
+.section-content h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #f393ec;
+}
+
+.section-content p,
+.section-content ul {
+    color: #f393ec;
+    line-height: 1.6;
+}
+
+.section-content ul {
+    padding: 0;
+    list-style: none;
+}
+
+.section-content ul li {
+    margin-bottom: 10px;
+}
+
+.section-content ul li a {
+    color: #f393ec;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.section-content ul li a:hover {
+    color: #f393ec;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center; /* Center align items vertically */
+}
+
+.social-icons a {
+    margin-right: 15px;
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.social-icons a:last-child {
+    margin-right: 0; /* Remove margin-right from the last child to prevent extra space */
+}
+
+.social-icons a img {
+    width: 30px; /* Set a specific width for the icons */
+    height: 30px; /* Set a specific height for the icons */
+    border-radius: 50%; /* Make the icons circular */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+
+.social-icons a:hover {
+    transform: translateY(-3px); /* Move the icon up slightly on hover */
+}
+
+.social-icons a:hover img {
+    opacity: 0.7; /* Reduce opacity of the icon on hover */
+}
+
+
+.footer-bottom {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #a93ca9;
+    color: #e9a2db;
+    font-size: 14px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .profile {
+        width: calc(50% - 1rem);
+    }
+}
+
+@media (max-width: 480px) {
+    .profile {
+        width: 100%;
+    }
+}
